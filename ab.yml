@@ -5,7 +5,4 @@
 
    tasks:
      - name: Execute /boot usage on Hosts
-       command: sudo mkdir ram
-       register: mkdir
-
-     - debug: var=mkdir.stdout
+       command: sudo mkdir ramj
