@@ -5,7 +5,7 @@
 
    tasks:
      - name: Execute /boot usage on Hosts
-       command: mkdir ex1
+       command: sudo mkdir ex1
        register: mkdir
 
      - debug: var=mkdir.stdout
