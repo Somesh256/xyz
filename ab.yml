@@ -1,8 +1,7 @@
 ---
+- name: use apache_vhost role playbook
+  hosts: localhost
+  become: true
 
- - hosts: localhost
-   become: yes
-
-   tasks:
-     - name: Execute /boot usage on Hosts
-       shell: echo "heellooo"
+  roles:
+         - bloc
